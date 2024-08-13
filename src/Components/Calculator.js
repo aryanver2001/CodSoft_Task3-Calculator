@@ -27,9 +27,9 @@ export default function Calculator() {
             try { 
                 ans = eval(text); 
             } catch (err) { 
-                setText("Math Error"); 
+                setText("Error"); 
             } 
-            if (ans === undefined) setText("Math Error"); 
+            if (ans === undefined) setText("Error"); 
             // update answer in our state. 
             else setText(ans); 
         } 
