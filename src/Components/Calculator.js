@@ -72,7 +72,7 @@ export default function Calculator() {
                         <input type="button" value="4" className="btn btn-outline-info btns" onClick={handlebtns}/>
                         <input type="button" value="5" className="btn btn-outline-info btns" onClick={handlebtns}/>
                         <input type="button" value="6" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="X" className="btn btn-outline-info btns" onClick={handlebtns}/>
+                        <input type="button" value="*" className="btn btn-outline-info btns" onClick={handlebtns}/>
                     </div>
 
                     <div className="btns-r4">
