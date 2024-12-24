@@ -1,0 +1,35 @@
+@media screen and (max-width:1290px){
+
+    .btns {
+        width: 80px;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:970px){
+
+    .btns{
+        width: 65px;
+        margin: 5px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:770px){
+
+    .outer-box{
+        width: 90%;
+    }
+    
+    .io-textarea{
+        font-size: 20px;
+    }
+    
+    .btns {
+        font-size: 14px;
+        margin: 7px;
+        padding: 10px 0px;
+        width: 50px;
+    }
+}
