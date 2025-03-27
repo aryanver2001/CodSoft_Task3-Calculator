@@ -55,38 +55,38 @@ export default function Calculator() {
                 <div className="btn-grp">
                     
                     <div className='btn-r1'>
-                        <input type="button" value="Clear" className="btn btn-outline-info btns" onClick={handleClear}/>
-                        <input type="button" value="Delete" className="btn btn-outline-info btns" onClick={handleDelete}/>
-                        <input type="button" value="%" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="=" className="btn btn-outline-info btns" onClick={handleEquals}/>
+                        <input type="button" value="Clear" className="btn btns" onClick={handleClear}/>
+                        <input type="button" value="Delete" className="btn btns" onClick={handleDelete}/>
+                        <input type="button" value="%" className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="=" className="btn btns" onClick={handleEquals}/>
                     </div>
 
                     <div className="btns-r2">
-                        <input type="button" value="1" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="2" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="3" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="/" className="btn btn-outline-info btns" onClick={handlebtns}/>
+                        <input type="button" value="1" className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="2" className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="3" className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="/" className="btn btns" onClick={handlebtns}/>
                     </div>
 
                     <div className="btns-r3">
-                        <input type="button" value="4" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="5" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="6" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="*" className="btn btn-outline-info btns" onClick={handlebtns}/>
+                        <input type="button" value="4" className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="5" className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="6" className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="*" className="btn btns" onClick={handlebtns}/>
                     </div>
 
                     <div className="btns-r4">
-                        <input type="button" value="7" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="8" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="9" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="-" className="btn btn-outline-info btns" onClick={handlebtns}/>
+                        <input type="button" value="7" className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="8" className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="9" className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="-" className="btn btns" onClick={handlebtns}/>
                     </div>
 
                     <div className="btns-r5">
-                        <input type="button" value="0" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="00" className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="." className="btn btn-outline-info btns" onClick={handlebtns}/>
-                        <input type="button" value="+" className="btn btn-outline-info btns" onClick={handlebtns}/>
+                        <input type="button" value="0" className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="00" className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="." className="btn btns" onClick={handlebtns}/>
+                        <input type="button" value="+" className="btn btns" onClick={handlebtns}/>
                     </div>
 
                 </div>
